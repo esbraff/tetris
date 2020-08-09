@@ -1,0 +1,9 @@
+version: "2"
+services:
+    tetris:
+        build: ./
+        ports:
+            - "5050:5050"
+        volumes:
+            - ./:/app/
+        container_name: tetris

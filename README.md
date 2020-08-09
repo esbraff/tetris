@@ -1,3 +1,5 @@
-```shell script
-python ./app.py
+# tetris
+
+```sh
+docker-compose up
 ```
